@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="avl.AVLTest" tests="21" skipped="0" failures="2" errors="0" timestamp="2023-11-08T04:53:12" hostname="DennisLaptop" time="0.087">
+  <properties/>
+  <testcase name="test00bstInsertRoot" classname="avl.AVLTest" time="0.007"/>
+  <testcase name="test10bstInsert" classname="avl.AVLTest" time="0.033"/>
+  <testcase name="test20parentPointers" classname="avl.AVLTest" time="0.001"/>
+  <testcase name="test30leftRotate" classname="avl.AVLTest" time="0.001"/>
+  <testcase name="test31leftRotate" classname="avl.AVLTest" time="0.001"/>
+  <testcase name="test32leftRotate" classname="avl.AVLTest" time="0.002"/>
+  <testcase name="test40rightRotate" classname="avl.AVLTest" time="0.001"/>
+  <testcase name="test41rightRotate" classname="avl.AVLTest" time="0.001"/>
+  <testcase name="test42rightRotate" classname="avl.AVLTest" time="0.001"/>
+  <testcase name="test50rebalance" classname="avl.AVLTest" time="0.003"/>
+  <testcase name="test51rebalance" classname="avl.AVLTest" time="0.002"/>
+  <testcase name="test52rebalance" classname="avl.AVLTest" time="0.001"/>
+  <testcase name="test53rebalance" classname="avl.AVLTest" time="0.001"/>
+  <testcase name="test54rebalance" classname="avl.AVLTest" time="0.002"/>
+  <testcase name="test55rebalance" classname="avl.AVLTest" time="0.0"/>
+  <testcase name="test56rebalance" classname="avl.AVLTest" time="0.003"/>
+  <testcase name="test57rebalance" classname="avl.AVLTest" time="0.001"/>
+  <testcase name="test58rebalance" classname="avl.AVLTest" time="0.001"/>
+  <testcase name="test60avlInsert" classname="avl.AVLTest" time="0.002"/>
+  <testcase name="test61avlInsert" classname="avl.AVLTest" time="0.014">
+    <failure message="org.junit.ComparisonFailure: expected:&lt;[n d b a c f e m l x q o p] s r y z&gt; but was:&lt;[f d b a c e q n m l o p x] s r y z&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[n d b a c f e m l x q o p] s r y z&gt; but was:&lt;[f d b a c e q n m l o p x] s r y z&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at avl.AVLTest.treeEquals(AVLTest.java:111)
+	at avl.AVLTest.test61avlInsert(AVLTest.java:545)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</failure>
+  </testcase>
+  <testcase name="test62avlInsert" classname="avl.AVLTest" time="0.004">
+    <failure message="org.junit.ComparisonFailure: expected:&lt;kivz [dmim bvry bjdo aigx boms bkde bsey cjwj bwmu ctvf gwrg ejhd eadj dwwi fefb fbhz ersx fdiq fzhr frsr gcbp inac hdig gzvg gzuh hbpf ijxs hvjh jrth jjeq ixuy jqit kaqq jxbq taaf ohkq lwkw lbvv ktfr kjrl kmrd kvgb kurn kwvl lhvp leec ldsu lsxh murr mqon matu moph mqpy naso muzo obmk nslc ranl pndi opvy opnu pgrs pxwa ppol qbto rztl rgbo rchs ruqb rkjw sbsx sath svfl xqyh vgen twpx tshu tinh tdur tsyj usue tywp umoi uzqn] wiae vtud vpaq wfki...&gt; but was:&lt;kivz [fefb dmim bvry bjdo aigx boms bkde bsey cjwj bwmu ctvf ejhd eadj dwwi fbhz ersx fdiq gzvg gwrg fzhr frsr gcbp gzuh inac hdig hbpf ijxs hvjh jrth jjeq ixuy jqit kaqq jxbq ranl mqon lbvv ktfr kjrl kmrd kvgb kurn kwvl lsxh leec ldsu lhvp matu lwkw moph ohkq naso murr mqpy muzo obmk nslc pndi opvy opnu pgrs pxwa ppol qbto vgen taaf rztl rgbo rchs ruqb rkjw sbsx sath svfl twpx tshu tinh tdur tsyj usue tywp umoi uzqn xqyh] wiae vtud vpaq wfki...&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;kivz [dmim bvry bjdo aigx boms bkde bsey cjwj bwmu ctvf gwrg ejhd eadj dwwi fefb fbhz ersx fdiq fzhr frsr gcbp inac hdig gzvg gzuh hbpf ijxs hvjh jrth jjeq ixuy jqit kaqq jxbq taaf ohkq lwkw lbvv ktfr kjrl kmrd kvgb kurn kwvl lhvp leec ldsu lsxh murr mqon matu moph mqpy naso muzo obmk nslc ranl pndi opvy opnu pgrs pxwa ppol qbto rztl rgbo rchs ruqb rkjw sbsx sath svfl xqyh vgen twpx tshu tinh tdur tsyj usue tywp umoi uzqn] wiae vtud vpaq wfki...&gt; but was:&lt;kivz [fefb dmim bvry bjdo aigx boms bkde bsey cjwj bwmu ctvf ejhd eadj dwwi fbhz ersx fdiq gzvg gwrg fzhr frsr gcbp gzuh inac hdig hbpf ijxs hvjh jrth jjeq ixuy jqit kaqq jxbq ranl mqon lbvv ktfr kjrl kmrd kvgb kurn kwvl lsxh leec ldsu lhvp matu lwkw moph ohkq naso murr mqpy muzo obmk nslc pndi opvy opnu pgrs pxwa ppol qbto vgen taaf rztl rgbo rchs ruqb rkjw sbsx sath svfl twpx tshu tinh tdur tsyj usue tywp umoi uzqn xqyh] wiae vtud vpaq wfki...&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at avl.AVLTest.treeEquals(AVLTest.java:111)
+	at avl.AVLTest.test62avlInsert(AVLTest.java:654)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</failure>
+  </testcase>
+  <system-out><![CDATA[0moo(0)
+0moo(0)
+0moo(0)
+        0quack(0)
+1moo(1)
+                        0z(0)
+                1y(1)
+        3x(3)
+                        1s(1)
+                                0r(0)
+                2q(2)
+                                0p(0)
+                        1o(1)
+4n(4)
+                        1m(1)
+                                0l(0)
+                2f(2)
+                        0e(0)
+        3d(3)
+                        0c(0)
+                1b(1)
+                        0a(0)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
