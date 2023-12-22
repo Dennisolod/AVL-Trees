@@ -1,5 +1,7 @@
 # AVL-Trees
-Implemented BST & AVL Tree operations.
+This repository contains the entire second assignment's code & logic.
+
+The assignment's objective is to implement BST & AVL Tree operations. See below for details.
 
 1. Implement BST (not AVL) insert and search functionality.
 2. Implement leftRotate and rightRotate helper methods to perform a rotation on a given node.
